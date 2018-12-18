@@ -391,7 +391,7 @@ span.border.two:after {
 
 *===============================*/
 .about-section{
-  background-color:whitesmoke;
+  background-color:#f1f1f1;;
 }
 
 
@@ -399,3 +399,44 @@ span.border.two:after {
   background: black;
   
 }
+
+#about {
+  text-align: center;
+}
+
+#about p {
+  text-align: left;
+  font-size: 1.2em;
+}
+
+.about-desc-2{
+  margin-top: 50px !important;
+  margin-bottom: 7.6% !important;
+ 
+}
+.heading{
+  color: #225a8b;
+  position:relative;
+  display:inline-block;
+  font-size:2em;
+  font-weight:300;
+
+}
+
+.about-desc-1,
+.about-desc-2{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -5px #777;
+  
+  background: white;
+  padding: 20px;
+  line-height: 1.4;
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 0;
+}
+
